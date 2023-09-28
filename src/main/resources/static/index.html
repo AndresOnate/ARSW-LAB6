@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blueprints</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <script src="/webjars/jquery/jquery.min.js"></script>
+        <script src="/webjars/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+        <script src="js/apimock.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet"
+          href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css" />
+    </head>
+<body>
+    <h1>Blueprints</h1>
+    <form>
+        <label for="author">Author</label>
+        <input type="text" id="author" name="author">
+        <input type="submit" value="Get blueprint">
+    </form>
+    <h3 id="author-content">Nombre del Autor</h3>
+    <table id="blueprint-table">
+        <tr>
+          <th>Blueprint name</th>
+          <th>Number of points</th>
+        </tr>
+    </table>
+    <h3 id="total-points">Total user points:</h3>   
+</body>
+</html>
