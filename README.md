@@ -124,8 +124,9 @@
 
     Junto con una operación pública que permita cambiar el nombre del autor actualmente seleccionado.
 
-   ![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/90f9fde5-0aab-4e8c-881b-59e1f57bc8a3)
+ ![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/90f9fde5-0aab-4e8c-881b-59e1f57bc8a3)
 
+![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/4fb89197-7703-43ff-9b34-f2d855b57c11)
 
 5. Agregue al módulo 'app.js' una operación pública que permita actualizar el listado de los planos, a partir del nombre de su autor (dado como parámetro). Para hacer esto, dicha operación debe invocar la operación 'getBlueprintsByAuthor' del módulo 'apimock' provisto, enviándole como _callback_ una función que:
 
@@ -138,6 +139,9 @@
 6. Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
 
 7. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un usuario existente, se cargue el listado del mismo.
+
+![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/9710fa3c-efd8-4a5f-aaea-d6f3f8442bc5)
+
 
 ## Para la próxima semana
 
