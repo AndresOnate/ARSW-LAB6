@@ -124,10 +124,6 @@
 
     Junto con una operación pública que permita cambiar el nombre del autor actualmente seleccionado.
 
- ![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/90f9fde5-0aab-4e8c-881b-59e1f57bc8a3)
-
-![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/4fb89197-7703-43ff-9b34-f2d855b57c11)
-
 5. Agregue al módulo 'app.js' una operación pública que permita actualizar el listado de los planos, a partir del nombre de su autor (dado como parámetro). Para hacer esto, dicha operación debe invocar la operación 'getBlueprintsByAuthor' del módulo 'apimock' provisto, enviándole como _callback_ una función que:
 
     * Tome el listado de los planos, y le aplique una función 'map' que convierta sus elementos a objetos con sólo el nombre y el número de puntos.
