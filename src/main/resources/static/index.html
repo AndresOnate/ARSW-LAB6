@@ -14,17 +14,19 @@
     </head>
 <body>
     <h1>Blueprints</h1>
-    <form>
-        <label for="author">Author</label>
-        <input type="text" id="author" name="author">
-        <input type="submit" value="Get blueprint">
-    </form>
-    <h3 id="author-content">Nombre del Autor</h3>
+    <div class="author">
+        <span>Author</span><input id="author">
+        <button onclick="app.getBlueprintsByAuthor()">Get Blueprints</button>
+    </div>
+    <h3 id="author-content">Author Name</h3>
     <table id="blueprint-table">
-        <tr>
-          <th>Blueprint name</th>
-          <th>Number of points</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Blueprint</th>
+                <th>Points</th>
+              </tr>
+        </thead>
+        <tbody></tbody>
     </table>
     <h3 id="total-points">Total user points:</h3>   
 </body>
