@@ -136,7 +136,8 @@
 
 7. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un usuario existente, se cargue el listado del mismo.
 
-![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/c5c23e71-daf2-4dff-a8e1-268f4c8f8be0)
+![image](https://github.com/AndresOnate/ARSW-LAB6/assets/63562181/525cb245-37a3-4ccc-8e80-5f7723c8facb)
+
 
 
 ## Para la próxima semana
