@@ -9,7 +9,7 @@ apimock=(function(){
 	mockdata["maryweyland"]=[{author:"maryweyland","points":[{"x":140,"y":140},{"x":115,"y":115}],"name":"house2"},
 	{author:"maryweyland","points":[{"x":140,"y":140},{"x":115,"y":115}],"name":"gear2"}];
 	mockdata["andres"]=[{author:"andres","points":[{"x":140,"y":140},{"x":115,"y":115}],"name":"ECI"},
-	{author:"andres","points":[{"x":140,"y":140},{"x":115,"y":115}],"name":"house"}];
+	{author:"andres","points":[{"x":30,"y":0},{"x":70,"y":0}, {"x":70,"y":40}, {"x":50,"y":60}, {"x":30,"y":40}, {"x":30,"y":0}],"name":"House"}];
 
 	return {
 		getBlueprintsByAuthor:function(authname,callback){
